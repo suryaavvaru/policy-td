@@ -1,0 +1,7 @@
+n,claim_support_acc,answerability_acc,entity_state_acc,logical_operator_acc,answer_trace_consistency_acc,best_action_acc,should_intervene_acc,seed,student_id
+30,0.166667,0.166667,0.8,1.0,0.433333,0.166667,0.166667,seed13,smollm2_17b
+30,0.166667,0.233333,0.433333,0.933333,0.7,0.233333,0.3,seed13,tinyllama_11b
+32,0.6875,0.5625,0.6875,0.625,0.1875,0.28125,0.5625,seed17,smollm2_17b
+32,0.34375,0.78125,0.75,0.5625,0.71875,0.3125,0.6875,seed17,tinyllama_11b
+34,0.588235,0.529412,0.852941,0.617647,0.352941,0.617647,0.735294,seed23,smollm2_17b
+34,0.264706,0.647059,0.735294,0.411765,0.588235,0.088235,0.676471,seed23,tinyllama_11b

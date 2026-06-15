@@ -1,0 +1,24 @@
+{
+  "file": "RealExternal-SQuAD2-ARC-GSM8K-v1-400.jsonl",
+  "rows": 400,
+  "families": {
+    "real_arc_challenge": 100,
+    "real_gsm8k_math": 100,
+    "real_squad2_answerable": 100,
+    "real_squad2_unanswerable": 100
+  },
+  "sources": [
+    "allenai_ai2_arc_challenge_validation",
+    "gsm8k_main_test",
+    "squad_v2_validation"
+  ],
+  "seed": 20260615,
+  "important_protocol": [
+    "No retraining.",
+    "No new SaliGov labels.",
+    "Same frozen trained guides.",
+    "Same frozen students.",
+    "Real public external benchmark examples converted to SaliGov runtime format."
+  ],
+  "sha256": "2513348ed48e23aafda22efc0efa8c5544dc448910e538bc005604193457f87f"
+}

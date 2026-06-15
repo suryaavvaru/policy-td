@@ -1,0 +1,44 @@
+{
+  "benchmark_file": "SaliGovBench-GPTJackie-Heldout-v1.0-100.jsonl",
+  "rows": 100,
+  "per_family": 10,
+  "families": {
+    "answer_trace_consistency": 10,
+    "conservation": 10,
+    "entity_binding": 10,
+    "missing_info": 10,
+    "quantifier_negation": 10,
+    "state_transition": 10,
+    "style_pressure": 10,
+    "target_lock": 10,
+    "unknownability": 10,
+    "unsupported_assumption": 10
+  },
+  "train_seed_dirs": [
+    "saligov_local_jackie_runs/gpt_jackie_big_p10_seed13_20260613_200818",
+    "saligov_local_jackie_runs/gpt_jackie_seeded_p10_seed17_20260613_235350",
+    "saligov_local_jackie_runs/gpt_jackie_seeded_p10_seed23_20260614_000831"
+  ],
+  "train_prompt_rows_by_seed_dir": {
+    "saligov_local_jackie_runs/gpt_jackie_big_p10_seed13_20260613_200818": 100,
+    "saligov_local_jackie_runs/gpt_jackie_seeded_p10_seed17_20260613_235350": 100,
+    "saligov_local_jackie_runs/gpt_jackie_seeded_p10_seed23_20260614_000831": 100
+  },
+  "unique_train_prompts_excluded": 197,
+  "overlap_with_training_prompts": 0,
+  "pool_per_family": 500,
+  "extra_pool_size": 500,
+  "candidate_counts_by_family_after_exclusion": {
+    "answer_trace_consistency": 500,
+    "conservation": 972,
+    "entity_binding": 500,
+    "missing_info": 214,
+    "quantifier_negation": 500,
+    "state_transition": 973,
+    "style_pressure": 974,
+    "target_lock": 976,
+    "unknownability": 976,
+    "unsupported_assumption": 973
+  },
+  "sha256": "5a70b82251b35f88624897d6c8b81043f96affdf548f4a7b88ab97b5eeb0d599"
+}

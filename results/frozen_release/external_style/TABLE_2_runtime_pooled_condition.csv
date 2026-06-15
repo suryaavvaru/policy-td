@@ -1,0 +1,10 @@
+n,base_correct,guided_correct,base_acc,guided_acc,delta_acc,delta_ci95_low,delta_ci95_high,base_unsupported_rate,guided_unsupported_rate,unsupported_delta,intervention_rate,intervention_precision,false_intervention_rate,helped,harmed,net,actions,suite,condition
+2700,906,906,0.335556,0.335556,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 2700}",external_generalization_v1,base
+2700,906,1016,0.335556,0.376296,0.040741,0.033282,0.048199,0.0,0.0,0.0,0.07037,0.842105,0.157895,110,0,110,"{""finalize"": 2510, ""force_grounded_step"": 50, ""say_unknown"": 140}",external_generalization_v1,guided_v10_noharm
+2700,906,1016,0.335556,0.376296,0.040741,0.033282,0.048199,0.0,0.0,0.0,0.218519,0.949153,0.050847,110,0,110,"{""finalize"": 2110, ""say_unknown"": 590}",external_generalization_v1,guided_v12_hardened
+2700,906,906,0.335556,0.335556,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 2700}",external_generalization_v1,router_off
+900,279,279,0.31,0.31,0.0,0.0,0.0,0.013333,0.013333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",internal_global_heldout,base
+900,279,424,0.31,0.471111,0.161111,0.137079,0.185143,0.013333,0.013333,0.0,0.217778,0.785714,0.214286,145,0,145,"{""finalize"": 704, ""force_grounded_step"": 18, ""say_unknown"": 178}",internal_global_heldout,guided_v10_noharm
+900,279,426,0.31,0.473333,0.163333,0.139168,0.187499,0.013333,0.013333,0.0,0.22,0.787879,0.212121,147,0,147,"{""finalize"": 702, ""force_grounded_step"": 18, ""say_unknown"": 180}",internal_global_heldout,guided_v12_hardened
+900,279,424,0.31,0.471111,0.161111,0.137079,0.185143,0.013333,0.013333,0.0,0.171111,1.0,0.0,145,0,145,"{""finalize"": 746, ""force_grounded_step"": 9, ""say_unknown"": 145}",internal_global_heldout,oracle_noharm
+900,279,279,0.31,0.31,0.0,0.0,0.0,0.013333,0.013333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",internal_global_heldout,router_off

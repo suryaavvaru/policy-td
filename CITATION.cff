@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Runtime control of frozen small language models with teacher-distilled intervention policies"
+message: "Please cite this work if you use Policy-TD."
+type: software
+authors:
+  - family-names: Avvaru
+    given-names: Surya Teja
+abstract: "Policy-TD trains teacher-distilled runtime intervention policies for frozen small language models, shifting adaptation from model weights to runtime decisions."
+keywords:
+  - frozen language models
+  - runtime control
+  - teacher distillation
+  - intervention policy
+  - selective reliability
+  - small language models
+license: MIT
+version: "0.1.0"

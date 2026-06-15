@@ -1,0 +1,16 @@
+{
+  "internal_dir": "/home/vdodda/PycharmProjects/qwen-SaliGov/HIGH_TIER_INTERNAL_FINAL_20260614_134907",
+  "external_dir": "/home/vdodda/PycharmProjects/qwen-SaliGov/REAL_EXTERNAL_FINAL_20260615_003051",
+  "out_dir": "PAPER1_FINAL_TABLES_20260615_082032/internal_plus_real_external_tables",
+  "runtime_rows": 18900,
+  "label_transfer_rows": 192,
+  "tables": [
+    "TABLE_1_runtime_seed_condition.csv",
+    "TABLE_2_runtime_pooled_condition.csv",
+    "TABLE_3_runtime_mean_std_over_seeds.csv",
+    "TABLE_4_runtime_by_student_pooled.csv",
+    "TABLE_5_runtime_by_family_pooled.csv",
+    "TABLE_6_label_transfer_by_seed_student.csv",
+    "TABLE_7_label_transfer_pooled_student.csv"
+  ]
+}

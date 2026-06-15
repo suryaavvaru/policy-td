@@ -1,0 +1,75 @@
+n,base_correct,guided_correct,base_acc,guided_acc,delta_acc,delta_ci95_low,delta_ci95_high,base_unsupported_rate,guided_unsupported_rate,unsupported_delta,intervention_rate,intervention_precision,false_intervention_rate,helped,harmed,net,actions,suite,condition,family
+450,315,315,0.7,0.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,base,bbh_object_tracking
+450,90,90,0.2,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,base,science_arc_challenge
+450,360,360,0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,base,squad2_answerable
+450,30,30,0.066667,0.066667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,base,squad2_unanswerable
+450,111,111,0.246667,0.246667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,base,svamp_math
+450,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,base,truthfulness
+450,315,315,0.7,0.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,guided_v10_noharm,bbh_object_tracking
+450,90,90,0.2,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,guided_v10_noharm,science_arc_challenge
+450,360,360,0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,guided_v10_noharm,squad2_answerable
+450,30,140,0.066667,0.311111,0.244444,0.204693,0.284196,0.0,0.0,0.0,0.311111,0.785714,0.214286,110,0,110,"{""finalize"": 310, ""say_unknown"": 140}",external_generalization_v1,guided_v10_noharm,squad2_unanswerable
+450,111,111,0.246667,0.246667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,guided_v10_noharm,svamp_math
+450,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.111111,1.0,0.0,0,0,0,"{""finalize"": 400, ""force_grounded_step"": 50}",external_generalization_v1,guided_v10_noharm,truthfulness
+450,315,315,0.7,0.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,guided_v12_hardened,bbh_object_tracking
+450,90,90,0.2,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,guided_v12_hardened,science_arc_challenge
+450,360,360,0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,guided_v12_hardened,squad2_answerable
+450,30,140,0.066667,0.311111,0.244444,0.204693,0.284196,0.0,0.0,0.0,0.311111,0.785714,0.214286,110,0,110,"{""finalize"": 310, ""say_unknown"": 140}",external_generalization_v1,guided_v12_hardened,squad2_unanswerable
+450,111,111,0.246667,0.246667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,guided_v12_hardened,svamp_math
+450,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0,0,0,"{""say_unknown"": 450}",external_generalization_v1,guided_v12_hardened,truthfulness
+450,315,315,0.7,0.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,router_off,bbh_object_tracking
+450,90,90,0.2,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,router_off,science_arc_challenge
+450,360,360,0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,router_off,squad2_answerable
+450,30,30,0.066667,0.066667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,router_off,squad2_unanswerable
+450,111,111,0.246667,0.246667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,router_off,svamp_math
+450,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 450}",external_generalization_v1,router_off,truthfulness
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,entity_binding
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,target_lock
+90,21,21,0.233333,0.233333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,unsupported_assumption
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,1.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,guided_v10_noharm,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,entity_binding
+90,12,88,0.133333,0.977778,0.844444,0.769145,0.919743,0.0,0.0,0.0,0.977778,0.863636,0.136364,76,0,76,"{""finalize"": 2, ""say_unknown"": 88}",internal_global_heldout,guided_v10_noharm,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,guided_v10_noharm,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,target_lock
+90,21,90,0.233333,1.0,0.766667,0.678794,0.854539,0.0,0.0,0.0,1.0,0.766667,0.233333,69,0,69,"{""say_unknown"": 90}",internal_global_heldout,guided_v10_noharm,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,unsupported_assumption
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,1.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,guided_v12_hardened,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,entity_binding
+90,12,90,0.133333,1.0,0.866667,0.796042,0.937291,0.0,0.0,0.0,1.0,0.866667,0.133333,78,0,78,"{""say_unknown"": 90}",internal_global_heldout,guided_v12_hardened,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,guided_v12_hardened,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,target_lock
+90,21,90,0.233333,1.0,0.766667,0.678794,0.854539,0.0,0.0,0.0,1.0,0.766667,0.233333,69,0,69,"{""say_unknown"": 90}",internal_global_heldout,guided_v12_hardened,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,unsupported_assumption
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,entity_binding
+90,12,88,0.133333,0.977778,0.844444,0.769145,0.919743,0.0,0.0,0.0,0.844444,1.0,0.0,76,0,76,"{""finalize"": 14, ""say_unknown"": 76}",internal_global_heldout,oracle_noharm,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,oracle_noharm,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,target_lock
+90,21,90,0.233333,1.0,0.766667,0.678794,0.854539,0.0,0.0,0.0,0.766667,1.0,0.0,69,0,69,"{""finalize"": 21, ""say_unknown"": 69}",internal_global_heldout,oracle_noharm,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,unsupported_assumption
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,entity_binding
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,target_lock
+90,21,21,0.233333,0.233333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,unsupported_assumption

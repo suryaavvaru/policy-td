@@ -1,0 +1,10 @@
+suite,condition,seeds,base_acc_mean,base_acc_std,guided_acc_mean,guided_acc_std,delta_acc_mean,delta_acc_std,base_unsupported_rate_mean,base_unsupported_rate_std,guided_unsupported_rate_mean,guided_unsupported_rate_std,unsupported_delta_mean,unsupported_delta_std,intervention_rate_mean,intervention_rate_std,intervention_precision_mean,intervention_precision_std,false_intervention_rate_mean,false_intervention_rate_std,helped_mean,helped_std,harmed_mean,harmed_std,net_mean,net_std
+external_generalization_v1,base,3,0.186667,0.0,0.186667,0.0,0.0,0.0,0.001667,0.0,0.001667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+external_generalization_v1,guided_v10_noharm,3,0.186667,0.0,0.192222,0.004276,0.005556,0.004277,0.001667,0.0,0.001667,0.0,0.0,0.0,0.150833,0.092916,0.827322,0.154669,0.172678,0.154669,8.666667,5.131601,2.0,0.0,6.666667,5.131601
+external_generalization_v1,guided_v12_hardened,3,0.186667,0.0,0.192222,0.004276,0.005556,0.004277,0.001667,0.0,0.001667,0.0,0.0,0.0,0.158889,0.091182,0.827071,0.139339,0.172929,0.139339,11.666667,5.131601,5.0,0.0,6.666667,5.131601
+external_generalization_v1,router_off,3,0.186667,0.0,0.186667,0.0,0.0,0.0,0.001667,0.0,0.001667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+internal_global_heldout,base,3,0.31,0.0,0.31,0.0,0.0,0.0,0.013333,0.0,0.013333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+internal_global_heldout,guided_v10_noharm,3,0.31,0.0,0.471111,0.001924,0.161111,0.001924,0.013333,0.0,0.013333,0.0,0.0,0.0,0.217778,0.001924,0.785703,0.001884,0.214297,0.001884,48.333333,0.57735,0.0,0.0,48.333333,0.57735
+internal_global_heldout,guided_v12_hardened,3,0.31,0.0,0.473333,0.0,0.163333,0.0,0.013333,0.0,0.013333,0.0,0.0,0.0,0.22,0.0,0.787879,0.0,0.212121,0.0,49.0,0.0,0.0,0.0,49.0,0.0
+internal_global_heldout,oracle_noharm,3,0.31,0.0,0.471111,0.001924,0.161111,0.001924,0.013333,0.0,0.013333,0.0,0.0,0.0,0.171111,0.001924,1.0,0.0,0.0,0.0,48.333333,0.57735,0.0,0.0,48.333333,0.57735
+internal_global_heldout,router_off,3,0.31,0.0,0.31,0.0,0.0,0.0,0.013333,0.0,0.013333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

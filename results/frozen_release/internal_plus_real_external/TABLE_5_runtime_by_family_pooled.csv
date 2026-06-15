@@ -1,0 +1,67 @@
+n,base_correct,guided_correct,base_acc,guided_acc,delta_acc,delta_ci95_low,delta_ci95_high,base_unsupported_rate,guided_unsupported_rate,unsupported_delta,intervention_rate,intervention_precision,false_intervention_rate,helped,harmed,net,actions,suite,condition,family
+900,219,219,0.243333,0.243333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,base,real_arc_challenge
+900,117,117,0.13,0.13,0.0,0.0,0.0,0.003333,0.003333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,base,real_gsm8k_math
+900,252,252,0.28,0.28,0.0,0.0,0.0,0.003333,0.003333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,base,real_squad2_answerable
+900,84,84,0.093333,0.093333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,base,real_squad2_unanswerable
+900,219,226,0.243333,0.251111,0.007778,-6.2e-05,0.015618,0.0,0.0,0.0,0.098889,0.797753,0.202247,10,3,7,"{""finalize"": 811, ""force_grounded_step"": 81, ""repair_final"": 8}",external_generalization_v1,guided_v10_noharm,real_arc_challenge
+900,117,114,0.13,0.126667,-0.003333,-0.007101,0.000434,0.003333,0.003333,0.0,0.102222,0.543478,0.456522,0,3,-3,"{""finalize"": 808, ""force_grounded_step"": 73, ""repair_final"": 16, ""rollback"": 3}",external_generalization_v1,guided_v10_noharm,real_gsm8k_math
+900,252,262,0.28,0.291111,0.011111,0.004259,0.017963,0.003333,0.003333,0.0,0.215556,1.0,0.0,10,0,10,"{""finalize"": 706, ""force_grounded_step"": 19, ""repair_final"": 86, ""rollback"": 85, ""say_unknown"": 4}",external_generalization_v1,guided_v10_noharm,real_squad2_answerable
+900,84,90,0.093333,0.1,0.006667,0.001347,0.011986,0.0,0.0,0.0,0.186667,1.0,0.0,6,0,6,"{""finalize"": 732, ""force_grounded_step"": 5, ""repair_final"": 91, ""rollback"": 68, ""say_unknown"": 4}",external_generalization_v1,guided_v10_noharm,real_squad2_unanswerable
+900,219,226,0.243333,0.251111,0.007778,-6.2e-05,0.015618,0.0,0.0,0.0,0.098889,0.797753,0.202247,10,3,7,"{""finalize"": 811, ""force_grounded_step"": 81, ""repair_final"": 8}",external_generalization_v1,guided_v12_hardened,real_arc_challenge
+900,117,114,0.13,0.126667,-0.003333,-0.007101,0.000434,0.003333,0.003333,0.0,0.111111,0.58,0.42,0,3,-3,"{""finalize"": 800, ""force_grounded_step"": 73, ""repair_final"": 15, ""rollback"": 3, ""say_unknown"": 9}",external_generalization_v1,guided_v12_hardened,real_gsm8k_math
+900,252,253,0.28,0.281111,0.001111,-0.008387,0.010609,0.003333,0.003333,0.0,0.231111,0.956731,0.043269,10,9,1,"{""finalize"": 692, ""force_grounded_step"": 19, ""repair_final"": 84, ""rollback"": 83, ""say_unknown"": 22}",external_generalization_v1,guided_v12_hardened,real_squad2_answerable
+900,84,99,0.093333,0.11,0.016667,0.008298,0.025035,0.0,0.0,0.0,0.194444,1.0,0.0,15,0,15,"{""finalize"": 725, ""force_grounded_step"": 5, ""repair_final"": 90, ""rollback"": 67, ""say_unknown"": 13}",external_generalization_v1,guided_v12_hardened,real_squad2_unanswerable
+900,219,219,0.243333,0.243333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,router_off,real_arc_challenge
+900,117,117,0.13,0.13,0.0,0.0,0.0,0.003333,0.003333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,router_off,real_gsm8k_math
+900,252,252,0.28,0.28,0.0,0.0,0.0,0.003333,0.003333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,router_off,real_squad2_answerable
+900,84,84,0.093333,0.093333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,router_off,real_squad2_unanswerable
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,entity_binding
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,target_lock
+90,21,21,0.233333,0.233333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,base,unsupported_assumption
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,1.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,guided_v10_noharm,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,entity_binding
+90,12,88,0.133333,0.977778,0.844444,0.769145,0.919743,0.0,0.0,0.0,0.977778,0.863636,0.136364,76,0,76,"{""finalize"": 2, ""say_unknown"": 88}",internal_global_heldout,guided_v10_noharm,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,guided_v10_noharm,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,target_lock
+90,21,90,0.233333,1.0,0.766667,0.678794,0.854539,0.0,0.0,0.0,1.0,0.766667,0.233333,69,0,69,"{""say_unknown"": 90}",internal_global_heldout,guided_v10_noharm,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v10_noharm,unsupported_assumption
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,1.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,guided_v12_hardened,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,entity_binding
+90,12,90,0.133333,1.0,0.866667,0.796042,0.937291,0.0,0.0,0.0,1.0,0.866667,0.133333,78,0,78,"{""say_unknown"": 90}",internal_global_heldout,guided_v12_hardened,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,guided_v12_hardened,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,target_lock
+90,21,90,0.233333,1.0,0.766667,0.678794,0.854539,0.0,0.0,0.0,1.0,0.766667,0.233333,69,0,69,"{""say_unknown"": 90}",internal_global_heldout,guided_v12_hardened,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,guided_v12_hardened,unsupported_assumption
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,entity_binding
+90,12,88,0.133333,0.977778,0.844444,0.769145,0.919743,0.0,0.0,0.0,0.844444,1.0,0.0,76,0,76,"{""finalize"": 14, ""say_unknown"": 76}",internal_global_heldout,oracle_noharm,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.0,0,0,0,"{""finalize"": 81, ""force_grounded_step"": 9}",internal_global_heldout,oracle_noharm,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,target_lock
+90,21,90,0.233333,1.0,0.766667,0.678794,0.854539,0.0,0.0,0.0,0.766667,1.0,0.0,69,0,69,"{""finalize"": 21, ""say_unknown"": 69}",internal_global_heldout,oracle_noharm,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,oracle_noharm,unsupported_assumption
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,answer_trace_consistency
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,conservation
+90,60,60,0.666667,0.666667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,entity_binding
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,missing_info
+90,12,12,0.133333,0.133333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,quantifier_negation
+90,3,3,0.033333,0.033333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,state_transition
+90,15,15,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,style_pressure
+90,33,33,0.366667,0.366667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,target_lock
+90,21,21,0.233333,0.233333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,unknownability
+90,45,45,0.5,0.5,0.0,0.0,0.0,0.133333,0.133333,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 90}",internal_global_heldout,router_off,unsupported_assumption

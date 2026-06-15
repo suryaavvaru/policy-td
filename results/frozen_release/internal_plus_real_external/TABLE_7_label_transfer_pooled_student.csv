@@ -1,0 +1,3 @@
+n,claim_support_acc,answerability_acc,entity_state_acc,logical_operator_acc,answer_trace_consistency_acc,best_action_acc,should_intervene_acc,student_id
+96,0.489583,0.427083,0.78125,0.739583,0.322917,0.364583,0.5,smollm2_17b
+96,0.260417,0.5625,0.645833,0.625,0.666667,0.208333,0.5625,tinyllama_11b

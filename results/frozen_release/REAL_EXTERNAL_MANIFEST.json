@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-06-15T00:30:51-04:00",
+  "benchmark": "/home/vdodda/PycharmProjects/qwen-SaliGov/RealExternal-SQuAD2-ARC-GSM8K-v1-400.jsonl",
+  "benchmark_report": "/home/vdodda/PycharmProjects/qwen-SaliGov/RealExternal-SQuAD2-ARC-GSM8K-v1-400.jsonl.report.json",
+  "conditions": ["base", "guided_v10_noharm", "router_off", "guided_v12_hardened"],
+  "seeds": ["seed13", "seed17", "seed23"],
+  "students": ["qwen3_17b", "smollm2_17b", "tinyllama_11b"],
+  "protocol": "real external datasets, no retraining, frozen guides"
+}

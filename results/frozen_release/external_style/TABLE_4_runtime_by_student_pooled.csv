@@ -1,0 +1,28 @@
+n,base_correct,guided_correct,base_acc,guided_acc,delta_acc,delta_ci95_low,delta_ci95_high,base_unsupported_rate,guided_unsupported_rate,unsupported_delta,intervention_rate,intervention_precision,false_intervention_rate,helped,harmed,net,actions,suite,condition,student_id
+900,441,441,0.49,0.49,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,base,qwen3_17b
+900,315,315,0.35,0.35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,base,smollm2_17b
+900,150,150,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,base,tinyllama_11b
+900,441,501,0.49,0.556667,0.066667,0.050361,0.082973,0.0,0.0,0.0,0.1,0.666667,0.333333,60,0,60,"{""finalize"": 810, ""say_unknown"": 90}",external_generalization_v1,guided_v10_noharm,qwen3_17b
+900,315,315,0.35,0.35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,guided_v10_noharm,smollm2_17b
+900,150,200,0.166667,0.222222,0.055556,0.040582,0.070529,0.0,0.0,0.0,0.111111,1.0,0.0,50,0,50,"{""finalize"": 800, ""force_grounded_step"": 50, ""say_unknown"": 50}",external_generalization_v1,guided_v10_noharm,tinyllama_11b
+900,441,501,0.49,0.556667,0.066667,0.050361,0.082973,0.0,0.0,0.0,0.266667,0.875,0.125,60,0,60,"{""finalize"": 660, ""say_unknown"": 240}",external_generalization_v1,guided_v12_hardened,qwen3_17b
+900,315,315,0.35,0.35,0.0,0.0,0.0,0.0,0.0,0.0,0.166667,1.0,0.0,0,0,0,"{""finalize"": 750, ""say_unknown"": 150}",external_generalization_v1,guided_v12_hardened,smollm2_17b
+900,150,200,0.166667,0.222222,0.055556,0.040582,0.070529,0.0,0.0,0.0,0.222222,1.0,0.0,50,0,50,"{""finalize"": 700, ""say_unknown"": 200}",external_generalization_v1,guided_v12_hardened,tinyllama_11b
+900,441,441,0.49,0.49,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,router_off,qwen3_17b
+900,315,315,0.35,0.35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,router_off,smollm2_17b
+900,150,150,0.166667,0.166667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 900}",external_generalization_v1,router_off,tinyllama_11b
+300,147,147,0.49,0.49,0.0,0.0,0.0,0.04,0.04,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 300}",internal_global_heldout,base,qwen3_17b
+300,57,57,0.19,0.19,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 300}",internal_global_heldout,base,smollm2_17b
+300,75,75,0.25,0.25,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 300}",internal_global_heldout,base,tinyllama_11b
+300,147,183,0.49,0.61,0.12,0.083166,0.156834,0.04,0.04,0.0,0.23,0.652174,0.347826,36,0,36,"{""finalize"": 231, ""force_grounded_step"": 9, ""say_unknown"": 60}",internal_global_heldout,guided_v10_noharm,qwen3_17b
+300,57,106,0.19,0.353333,0.163333,0.121431,0.205235,0.0,0.0,0.0,0.223333,0.731343,0.268657,49,0,49,"{""finalize"": 233, ""force_grounded_step"": 9, ""say_unknown"": 58}",internal_global_heldout,guided_v10_noharm,smollm2_17b
+300,75,135,0.25,0.45,0.2,0.15466,0.24534,0.0,0.0,0.0,0.2,1.0,0.0,60,0,60,"{""finalize"": 240, ""say_unknown"": 60}",internal_global_heldout,guided_v10_noharm,tinyllama_11b
+300,147,183,0.49,0.61,0.12,0.083166,0.156834,0.04,0.04,0.0,0.23,0.652174,0.347826,36,0,36,"{""finalize"": 231, ""force_grounded_step"": 9, ""say_unknown"": 60}",internal_global_heldout,guided_v12_hardened,qwen3_17b
+300,57,108,0.19,0.36,0.17,0.127422,0.212578,0.0,0.0,0.0,0.23,0.73913,0.26087,51,0,51,"{""finalize"": 231, ""force_grounded_step"": 9, ""say_unknown"": 60}",internal_global_heldout,guided_v12_hardened,smollm2_17b
+300,75,135,0.25,0.45,0.2,0.15466,0.24534,0.0,0.0,0.0,0.2,1.0,0.0,60,0,60,"{""finalize"": 240, ""say_unknown"": 60}",internal_global_heldout,guided_v12_hardened,tinyllama_11b
+300,147,183,0.49,0.61,0.12,0.083166,0.156834,0.04,0.04,0.0,0.15,1.0,0.0,36,0,36,"{""finalize"": 255, ""force_grounded_step"": 9, ""say_unknown"": 36}",internal_global_heldout,oracle_noharm,qwen3_17b
+300,57,106,0.19,0.353333,0.163333,0.121431,0.205235,0.0,0.0,0.0,0.163333,1.0,0.0,49,0,49,"{""finalize"": 251, ""say_unknown"": 49}",internal_global_heldout,oracle_noharm,smollm2_17b
+300,75,135,0.25,0.45,0.2,0.15466,0.24534,0.0,0.0,0.0,0.2,1.0,0.0,60,0,60,"{""finalize"": 240, ""say_unknown"": 60}",internal_global_heldout,oracle_noharm,tinyllama_11b
+300,147,147,0.49,0.49,0.0,0.0,0.0,0.04,0.04,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 300}",internal_global_heldout,router_off,qwen3_17b
+300,57,57,0.19,0.19,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 300}",internal_global_heldout,router_off,smollm2_17b
+300,75,75,0.25,0.25,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,"{""finalize"": 300}",internal_global_heldout,router_off,tinyllama_11b
