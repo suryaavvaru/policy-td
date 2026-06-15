@@ -1,13 +1,30 @@
-<svg width="1100" height="270" viewBox="0 0 1100 270" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1100" height="270" rx="26" fill="#f8fafc"/>
-  <text x="55" y="55" font-family="Arial" font-size="26" font-weight="700" fill="#0f172a">Frozen-release results</text>
-  <text x="55" y="85" font-family="Arial" font-size="15" fill="#475569">Strong targeted internal gains; smaller mixed transfer on real public external benchmarks.</text>
-  <text x="75" y="135" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Internal global heldout</text>
-  <rect x="75" y="155" width="200" height="24" rx="12" fill="#cbd5e1"/>
-  <rect x="75" y="190" width="305" height="24" rx="12" fill="#2563eb"/>
-  <text x="395" y="208" font-family="Arial" font-size="14" fill="#0f172a">31.00% → 47.33% · 147 helped / 0 harmed</text>
-  <text x="620" y="135" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Real public external</text>
-  <rect x="620" y="155" width="120" height="24" rx="12" fill="#cbd5e1"/>
-  <rect x="620" y="190" width="124" height="24" rx="12" fill="#2563eb"/>
-  <text x="760" y="208" font-family="Arial" font-size="14" fill="#0f172a">18.67% → 19.22% · mixed helped/harmed</text>
+<svg width="1100" height="300" viewBox="0 0 1100 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1100" height="300" rx="18" fill="#ffffff"/>
+  <rect x="1" y="1" width="1098" height="298" rx="18" fill="none" stroke="#e5e7eb"/>
+
+  <text x="52" y="50" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111827">Frozen-release result summary</text>
+  <text x="52" y="78" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4b5563">Runtime intervention improves targeted internal performance; external transfer is smaller and mixed.</text>
+
+  <rect x="52" y="112" width="996" height="42" fill="#f9fafb"/>
+  <text x="78" y="138" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#374151">Suite</text>
+  <text x="420" y="138" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#374151">Base</text>
+  <text x="560" y="138" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#374151">Guided</text>
+  <text x="710" y="138" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#374151">Delta</text>
+  <text x="835" y="138" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#374151">Helped / harmed</text>
+
+  <line x1="52" y1="154" x2="1048" y2="154" stroke="#e5e7eb"/>
+
+  <text x="78" y="190" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">Internal global heldout</text>
+  <text x="420" y="190" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#111827">31.00%</text>
+  <text x="560" y="190" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">47.33%</text>
+  <text x="710" y="190" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#166534">+16.33 pp</text>
+  <text x="835" y="190" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#111827">147 / 0</text>
+
+  <line x1="52" y1="213" x2="1048" y2="213" stroke="#e5e7eb"/>
+
+  <text x="78" y="248" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">Real public external</text>
+  <text x="420" y="248" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#111827">18.67%</text>
+  <text x="560" y="248" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">19.22%</text>
+  <text x="710" y="248" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#166534">+0.56 pp</text>
+  <text x="835" y="248" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#111827">35 / 15</text>
 </svg>

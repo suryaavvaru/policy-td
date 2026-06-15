@@ -1,25 +1,35 @@
-<svg width="1100" height="360" viewBox="0 0 1100 360" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1100" height="360" rx="28" fill="#0f172a"/>
-  <text x="55" y="65" font-family="Arial" font-size="34" font-weight="700" fill="#f8fafc">Policy-TD</text>
-  <text x="55" y="100" font-family="Arial" font-size="17" fill="#cbd5e1">Teacher-distilled runtime intervention policies for frozen small language models</text>
-  <rect x="70" y="160" width="170" height="80" rx="16" fill="#111827" stroke="#475569"/>
-  <text x="155" y="195" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#f8fafc">Prompt</text>
-  <text x="155" y="220" text-anchor="middle" font-family="Arial" font-size="13" fill="#cbd5e1">input question</text>
-  <line x1="240" y1="200" x2="310" y2="200" stroke="#94a3b8" stroke-width="3"/>
-  <polygon points="310,200 298,193 298,207" fill="#94a3b8"/>
-  <rect x="320" y="145" width="220" height="110" rx="16" fill="#111827" stroke="#475569"/>
-  <text x="430" y="190" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#f8fafc">Frozen student LM</text>
-  <text x="430" y="216" text-anchor="middle" font-family="Arial" font-size="13" fill="#cbd5e1">no weight updates</text>
-  <line x1="540" y1="200" x2="610" y2="200" stroke="#94a3b8" stroke-width="3"/>
-  <polygon points="610,200 598,193 598,207" fill="#94a3b8"/>
-  <rect x="620" y="125" width="260" height="150" rx="18" fill="#172554" stroke="#38bdf8"/>
-  <text x="750" y="170" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#f8fafc">Policy-TD controller</text>
-  <text x="750" y="200" text-anchor="middle" font-family="Arial" font-size="13" fill="#dbeafe">teacher-distilled runtime policy</text>
-  <text x="750" y="228" text-anchor="middle" font-family="Arial" font-size="12" fill="#bfdbfe">finalize · abstain · repair · rollback</text>
-  <line x1="880" y1="200" x2="950" y2="200" stroke="#94a3b8" stroke-width="3"/>
-  <polygon points="950,200 938,193 938,207" fill="#94a3b8"/>
-  <rect x="960" y="160" width="120" height="80" rx="16" fill="#111827" stroke="#475569"/>
-  <text x="1020" y="195" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#f8fafc">Outcome</text>
-  <text x="1020" y="220" text-anchor="middle" font-family="Arial" font-size="13" fill="#cbd5e1">controlled answer</text>
-  <text x="55" y="315" font-family="Arial" font-size="14" fill="#94a3b8">Adaptation happens at runtime decision points, not in the frozen model weights.</text>
+<svg width="1100" height="330" viewBox="0 0 1100 330" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1100" height="330" rx="18" fill="#ffffff"/>
+  <rect x="1" y="1" width="1098" height="328" rx="18" fill="none" stroke="#e5e7eb"/>
+
+  <text x="52" y="55" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#111827">Policy-TD runtime control loop</text>
+  <text x="52" y="84" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4b5563">A frozen language model is controlled by a compact teacher-distilled intervention policy.</text>
+
+  <rect x="70" y="145" width="165" height="70" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="152" y="174" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">Input</text>
+  <text x="152" y="197" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280">prompt / question</text>
+
+  <line x1="235" y1="180" x2="305" y2="180" stroke="#9ca3af" stroke-width="2"/>
+  <path d="M305 180 L295 174 L295 186 Z" fill="#9ca3af"/>
+
+  <rect x="320" y="132" width="210" height="96" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="425" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">Frozen student LM</text>
+  <text x="425" y="193" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280">weights unchanged</text>
+
+  <line x1="530" y1="180" x2="600" y2="180" stroke="#9ca3af" stroke-width="2"/>
+  <path d="M600 180 L590 174 L590 186 Z" fill="#9ca3af"/>
+
+  <rect x="615" y="112" width="270" height="136" rx="12" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="750" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111827">Policy-TD controller</text>
+  <text x="750" y="177" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b5563">teacher-distilled runtime action</text>
+  <text x="750" y="207" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#374151">finalize · abstain · repair · rollback · continue</text>
+
+  <line x1="885" y1="180" x2="955" y2="180" stroke="#9ca3af" stroke-width="2"/>
+  <path d="M955 180 L945 174 L945 186 Z" fill="#9ca3af"/>
+
+  <rect x="970" y="145" width="110" height="70" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="1025" y="174" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">Output</text>
+  <text x="1025" y="197" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280">controlled</text>
+
+  <text x="52" y="285" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280">Core idea: shift adaptation from model weights to runtime intervention decisions.</text>
 </svg>

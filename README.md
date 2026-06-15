@@ -1,7 +1,7 @@
 # Policy-TD
 
 <p align="center">
-  <img src="docs/figures/policy_td_architecture.svg" alt="Policy-TD architecture" width="100%">
+  <img src="docs/figures/policy_td_architecture.svg" alt="Policy-TD runtime control loop" width="100%">
 </p>
 
 <p align="center">
@@ -21,7 +21,19 @@ Policy-TD is a runtime controller for frozen small language models. It does not 
 **Main result.** On the internal global heldout benchmark, Policy-TD improves guided accuracy from **31.00%** to **47.33%** with **147 helped / 0 harmed** examples under the hardened guide. On real public external benchmarks, gains are smaller and mixed: **18.67%** to **19.22%**, with nonzero helped and harmed cases.
 
 <p align="center">
-  <img src="docs/figures/policy_td_results.svg" alt="Policy-TD frozen-release summary" width="100%">
+  <img src="docs/figures/policy_td_results.svg" alt="Policy-TD frozen-release result summary" width="100%">
+</p>
+
+
+
+<p align="center">
+  <strong>Teacher-distilled intervention policies for runtime control of frozen small language models.</strong>
+</p>
+
+<p align="center">
+  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue.svg">
+  <img alt="Status" src="https://img.shields.io/badge/status-manuscript--stage-lightgrey.svg">
 </p>
 
 ## Overview
