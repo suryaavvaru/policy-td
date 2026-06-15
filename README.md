@@ -24,8 +24,6 @@ Policy-TD is a runtime controller for frozen small language models. It does not 
   <img src="docs/figures/policy_td_results.svg" alt="Policy-TD frozen-release result summary" width="100%">
 </p>
 
-
-
 <p align="center">
   <strong>Teacher-distilled intervention policies for runtime control of frozen small language models.</strong>
 </p>
