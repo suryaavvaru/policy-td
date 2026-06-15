@@ -2,32 +2,24 @@
   <rect width="1100" height="360" rx="28" fill="#0f172a"/>
   <text x="55" y="65" font-family="Arial" font-size="34" font-weight="700" fill="#f8fafc">Policy-TD</text>
   <text x="55" y="100" font-family="Arial" font-size="17" fill="#cbd5e1">Teacher-distilled runtime intervention policies for frozen small language models</text>
-
   <rect x="70" y="160" width="170" height="80" rx="16" fill="#111827" stroke="#475569"/>
   <text x="155" y="195" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#f8fafc">Prompt</text>
   <text x="155" y="220" text-anchor="middle" font-family="Arial" font-size="13" fill="#cbd5e1">input question</text>
-
   <line x1="240" y1="200" x2="310" y2="200" stroke="#94a3b8" stroke-width="3"/>
   <polygon points="310,200 298,193 298,207" fill="#94a3b8"/>
-
   <rect x="320" y="145" width="220" height="110" rx="16" fill="#111827" stroke="#475569"/>
   <text x="430" y="190" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#f8fafc">Frozen student LM</text>
   <text x="430" y="216" text-anchor="middle" font-family="Arial" font-size="13" fill="#cbd5e1">no weight updates</text>
-
   <line x1="540" y1="200" x2="610" y2="200" stroke="#94a3b8" stroke-width="3"/>
   <polygon points="610,200 598,193 598,207" fill="#94a3b8"/>
-
   <rect x="620" y="125" width="260" height="150" rx="18" fill="#172554" stroke="#38bdf8"/>
   <text x="750" y="170" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#f8fafc">Policy-TD controller</text>
   <text x="750" y="200" text-anchor="middle" font-family="Arial" font-size="13" fill="#dbeafe">teacher-distilled runtime policy</text>
   <text x="750" y="228" text-anchor="middle" font-family="Arial" font-size="12" fill="#bfdbfe">finalize · abstain · repair · rollback</text>
-
   <line x1="880" y1="200" x2="950" y2="200" stroke="#94a3b8" stroke-width="3"/>
   <polygon points="950,200 938,193 938,207" fill="#94a3b8"/>
-
   <rect x="960" y="160" width="120" height="80" rx="16" fill="#111827" stroke="#475569"/>
   <text x="1020" y="195" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#f8fafc">Outcome</text>
   <text x="1020" y="220" text-anchor="middle" font-family="Arial" font-size="13" fill="#cbd5e1">controlled answer</text>
-
   <text x="55" y="315" font-family="Arial" font-size="14" fill="#94a3b8">Adaptation happens at runtime decision points, not in the frozen model weights.</text>
 </svg>

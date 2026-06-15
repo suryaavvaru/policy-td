@@ -2,12 +2,10 @@
   <rect width="1100" height="270" rx="26" fill="#f8fafc"/>
   <text x="55" y="55" font-family="Arial" font-size="26" font-weight="700" fill="#0f172a">Frozen-release results</text>
   <text x="55" y="85" font-family="Arial" font-size="15" fill="#475569">Strong targeted internal gains; smaller mixed transfer on real public external benchmarks.</text>
-
   <text x="75" y="135" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Internal global heldout</text>
   <rect x="75" y="155" width="200" height="24" rx="12" fill="#cbd5e1"/>
   <rect x="75" y="190" width="305" height="24" rx="12" fill="#2563eb"/>
   <text x="395" y="208" font-family="Arial" font-size="14" fill="#0f172a">31.00% → 47.33% · 147 helped / 0 harmed</text>
-
   <text x="620" y="135" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Real public external</text>
   <rect x="620" y="155" width="120" height="24" rx="12" fill="#cbd5e1"/>
   <rect x="620" y="190" width="124" height="24" rx="12" fill="#2563eb"/>
