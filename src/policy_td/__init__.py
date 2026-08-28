@@ -1,12 +1,12 @@
 """Policy-TD: teacher-distilled runtime intervention policies."""
 
 from policy_td.core.actions import RuntimeAction
-from policy_td.eval.metrics import RuntimeOutcome, helped, harmed, paired_delta
+from policy_td.eval.metrics import RuntimeOutcome, harmed, helped, paired_delta
 
 __all__ = [
     "RuntimeAction",
     "RuntimeOutcome",
-    "helped",
     "harmed",
+    "helped",
     "paired_delta",
 ]

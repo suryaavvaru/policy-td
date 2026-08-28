@@ -1,32 +1,27 @@
 # Artifact access
 
-The public repository contains the modular Policy-TD package, documentation, curated frozen-release tables, manifests, and verification scripts.
+The public repository contains the modular Policy-TD method contract, documentation, curated frozen-release tables, manifests, and verification scripts.
 
-Large runtime artifacts are not stored directly in git. The frozen runtime archive is intended for release with the manuscript/preprint.
+Large runtime artifacts are intentionally kept out of git. The public-clean frozen runtime archive is intended to be attached to the manuscript/preprint release.
 
-## Frozen archive
+## Public-clean frozen archive
 
-Artifact name:
+```text
+Policy-TD_frozen_runtime_archive_v0.1.0.tar.gz
+SHA-256: 92f8393af023988ecbaa1a434da5131a1d88040ad54fdb0bd5aad5fd2f7d3c0e
+```
 
-    Policy-TD_frozen_runtime_archive_v0.1.0.tar.gz
+## Intended contents
 
-SHA-256:
-
-    92f8393af023988ecbaa1a434da5131a1d88040ad54fdb0bd5aad5fd2f7d3c0e
-
-## Contents
-
-The curated frozen runtime archive preserves:
+The archive preserves:
 
 - curated frozen runtime result artifacts;
 - final table-generation provenance;
-- internal heldout and real external evaluation provenance;
-- curated manifests and verification material.
+- internal heldout and public external evaluation provenance;
+- manifests and verification material needed to audit the paper-facing results.
 
-## Checkpoint note
+## Checkpoint boundary
 
-The curated archive is intended for paper-facing artifact inspection. If full trained-guide execution is required, the trained guide/checkpoint should be staged as a separate checkpoint bundle.
+Trained guide checkpoints, if released, should be staged as a separate versioned bundle. Raw provider transcripts, credentials, local workbench state, and exploratory logs are not part of the public artifact.
 
-## Release status
-
-The artifact will be released with the manuscript/preprint.
+See [`public_release_scope.md`](public_release_scope.md) for the release boundary.

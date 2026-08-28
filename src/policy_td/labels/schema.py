@@ -1,6 +1,6 @@
-"""Typed GPT-Jackie label schema."""
+"""Typed teacher-label schema used by the public Policy-TD artifact."""
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from policy_td.core.actions import RuntimeAction
 from policy_td.core.constants import (
@@ -13,7 +13,13 @@ from policy_td.core.constants import (
 
 
 class GPTJackieLabel(BaseModel):
-    """Validated teacher label for one frozen-student trace."""
+    """Validated teacher label for one frozen-student trace.
+
+    Unknown fields are rejected so that misspelled or off-schema teacher
+    outputs cannot be silently dropped during artifact validation.
+    """
+
+    model_config = ConfigDict(extra="forbid")
 
     claim_support: str
     answerability: str

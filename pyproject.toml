@@ -47,3 +47,7 @@ target-version = "py310"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+
+[project.urls]
+Repository = "https://github.com/suryaavvaru/policy-td"
+

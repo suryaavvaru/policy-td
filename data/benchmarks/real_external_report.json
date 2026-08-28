@@ -1,5 +1,4 @@
 {
-  "file": "RealExternal-SQuAD2-ARC-GSM8K-v1-400.jsonl",
   "rows": 400,
   "families": {
     "real_arc_challenge": 100,
@@ -15,10 +14,11 @@
   "seed": 20260615,
   "important_protocol": [
     "No retraining.",
-    "No new SaliGov labels.",
+    "No new teacher labels.",
     "Same frozen trained guides.",
     "Same frozen students.",
-    "Real public external benchmark examples converted to SaliGov runtime format."
+    "Public benchmark examples converted to the Policy-TD runtime evaluation format."
   ],
-  "sha256": "2513348ed48e23aafda22efc0efa8c5544dc448910e538bc005604193457f87f"
+  "sha256": "2513348ed48e23aafda22efc0efa8c5544dc448910e538bc005604193457f87f",
+  "benchmark_id": "real_external_squad2_arc_gsm8k_v1_400"
 }

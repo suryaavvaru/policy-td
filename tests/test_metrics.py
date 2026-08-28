@@ -24,3 +24,14 @@ def test_runtime_outcome_properties():
     assert outcome.helped
     assert not outcome.harmed
     assert outcome.delta == 1
+
+
+def test_runtime_summary_yields():
+    from policy_td.eval.metrics import RuntimeSummary
+
+    summary = RuntimeSummary(
+        n=10, base_correct=4, guided_correct=6, helped=2, harmed=0, interventions=4
+    )
+    assert summary.intervention_rate == 0.4
+    assert summary.help_yield == 0.5
+    assert summary.harm_yield == 0.0

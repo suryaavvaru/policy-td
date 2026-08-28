@@ -1,7 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "GPT-Jackie teacher label",
+  "title": "Policy-TD teacher label",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "claim_support",
     "answerability",
@@ -13,67 +14,32 @@
   "properties": {
     "claim_support": {
       "type": "string",
-      "enum": [
-        "prompt_supported",
-        "derived_supported",
-        "plausible_uncertain",
-        "unsupported",
-        "contradiction"
-      ]
+      "enum": ["prompt_supported", "derived_supported", "plausible_uncertain", "unsupported", "contradiction"]
     },
     "answerability": {
       "type": "string",
-      "enum": [
-        "answerable_not_sufficient",
-        "answerable_sufficient",
-        "not_enough_information",
-        "partially_answerable"
-      ]
+      "enum": ["answerable_not_sufficient", "answerable_sufficient", "not_enough_information", "partially_answerable"]
     },
     "entity_state": {
       "type": "string",
-      "enum": [
-        "ok",
-        "entity_binding_error",
-        "state_transition_error",
-        "relation_direction_error"
-      ]
+      "enum": ["ok", "entity_binding_error", "state_transition_error", "relation_direction_error"]
     },
     "logical_operator": {
       "type": "string",
-      "enum": [
-        "ok",
-        "quantifier_error",
-        "negation_error",
-        "operator_ambiguous"
-      ]
+      "enum": ["ok", "quantifier_error", "negation_error", "operator_ambiguous"]
     },
     "answer_trace_consistency": {
       "type": "string",
-      "enum": [
-        "consistent",
-        "inconsistent",
-        "no_final_answer"
-      ]
+      "enum": ["consistent", "inconsistent", "no_final_answer"]
     },
     "best_action": {
       "type": "string",
-      "enum": [
-        "continue",
-        "force_grounded_step",
-        "rollback",
-        "say_unknown",
-        "finalize",
-        "repair_final"
-      ]
+      "enum": ["continue", "force_grounded_step", "rollback", "say_unknown", "finalize", "repair_final"]
     },
-    "should_intervene": {
-      "type": "boolean"
-    },
-    "confidence": {
-      "type": "number",
-      "minimum": 0,
-      "maximum": 1
-    }
+    "should_intervene": {"type": ["boolean", "null"]},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "failure_span": {"type": ["string", "null"]},
+    "repair_hint": {"type": ["string", "null"]},
+    "unsupported_claims": {"type": "array", "items": {"type": "string"}}
   }
 }

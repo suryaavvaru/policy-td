@@ -1,7 +1,8 @@
 {
-  "internal_dir": "/home/vdodda/PycharmProjects/qwen-SaliGov/HIGH_TIER_INTERNAL_FINAL_20260614_134907",
-  "external_dir": "/home/vdodda/PycharmProjects/qwen-SaliGov/REAL_EXTERNAL_FINAL_20260615_003051",
-  "out_dir": "PAPER1_FINAL_TABLES_20260615_082032/internal_plus_real_external_tables",
+  "source_runs": {
+    "internal": "HIGH_TIER_INTERNAL_FINAL_20260614_134907",
+    "real_external": "REAL_EXTERNAL_FINAL_20260615_003051"
+  },
   "runtime_rows": 18900,
   "label_transfer_rows": 192,
   "tables": [
@@ -12,5 +13,6 @@
     "TABLE_5_runtime_by_family_pooled.csv",
     "TABLE_6_label_transfer_by_seed_student.csv",
     "TABLE_7_label_transfer_pooled_student.csv"
-  ]
+  ],
+  "public_manifest_note": "Machine-local source directories were removed; stable source-run identifiers are retained for provenance."
 }

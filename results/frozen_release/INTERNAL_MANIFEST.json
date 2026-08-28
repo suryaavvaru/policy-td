@@ -1,7 +1,7 @@
 {
   "created_at": "2026-06-14T13:49:07-04:00",
-  "benchmark": "/home/vdodda/PycharmProjects/qwen-SaliGov/SaliGovBench-GPTJackie-Heldout-v1.0-100.jsonl",
-  "benchmark_report": "/home/vdodda/PycharmProjects/qwen-SaliGov/SaliGovBench-GPTJackie-Heldout-v1.0-100.jsonl.report.json",
+  "benchmark_id": "internal_global_heldout_v1_100",
+  "benchmark_report": "data/benchmarks/internal_heldout_report.json",
   "benchmark_sha256_expected": "5a70b82251b35f88624897d6c8b81043f96affdf548f4a7b88ab97b5eeb0d599",
   "conditions": [
     "base",
@@ -10,6 +10,15 @@
     "oracle_noharm",
     "guided_v12_hardened"
   ],
-  "seeds": ["seed13", "seed17", "seed23"],
-  "students": ["qwen3_17b", "smollm2_17b", "tinyllama_11b"]
+  "seeds": [
+    "seed13",
+    "seed17",
+    "seed23"
+  ],
+  "students": [
+    "qwen3_17b",
+    "smollm2_17b",
+    "tinyllama_11b"
+  ],
+  "public_manifest_note": "Machine-local source paths were removed from the public manifest; benchmark identity is preserved by report metadata and SHA-256."
 }

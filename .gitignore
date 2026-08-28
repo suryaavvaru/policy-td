@@ -1,3 +1,4 @@
+# Python caches and test artifacts
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -5,36 +6,7 @@ __pycache__/
 .ruff_cache/
 .coverage
 htmlcov/
-
-.venv/
-venv/
-.env
-.env.*
-
-.DS_Store
-.idea/
-.vscode/
-
-*.log
-*.out
-*.pid
-nohup.out
-wandb/
-runs/
-outputs/
-checkpoints/
-cache/
-
-*.tar.gz
-*.zip
-*.pt
-*.pth
-*.safetensors
-*.bin
-
-# Python package metadata
 *.egg-info/
-# Python bytecode/cache
 
 # Virtual environments and local secrets
 .venv/
@@ -42,12 +14,12 @@ venv/
 .env
 .env.*
 
-# Editor/system files
+# Editor and operating-system files
 .DS_Store
 .idea/
 .vscode/
 
-# Runtime logs and process files
+# Runtime logs, workbench output, and model artifacts
 *.log
 *.out
 *.pid
@@ -58,11 +30,10 @@ outputs/
 checkpoints/
 cache/
 
-# Archives, checkpoints, and generated package metadata
+# Large release artifacts belong in versioned releases, not git
 *.tar.gz
 *.zip
 *.pt
 *.pth
 *.safetensors
 *.bin
-*.egg-info/

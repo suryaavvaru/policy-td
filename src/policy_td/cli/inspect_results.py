@@ -7,6 +7,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from policy_td.eval.validation import validate_runtime_table
+
 
 def format_pct(value: float) -> str:
     return f"{100 * value:.2f}%"
@@ -14,6 +16,7 @@ def format_pct(value: float) -> str:
 
 def inspect_pooled(table_path: Path) -> None:
     df = pd.read_csv(table_path)
+    validate_runtime_table(df)
 
     keep = [
         "suite",

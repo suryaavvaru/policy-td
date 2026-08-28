@@ -68,3 +68,13 @@ class RuntimeSummary:
     @property
     def intervention_rate(self) -> float:
         return self.interventions / self.n if self.n else 0.0
+
+    @property
+    def help_yield(self) -> float:
+        """Fraction of behavior-changing interventions that produce a helped outcome."""
+        return self.helped / self.interventions if self.interventions else 0.0
+
+    @property
+    def harm_yield(self) -> float:
+        """Fraction of behavior-changing interventions that produce a harmed outcome."""
+        return self.harmed / self.interventions if self.interventions else 0.0

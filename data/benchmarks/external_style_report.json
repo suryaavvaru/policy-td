@@ -1,5 +1,4 @@
 {
-  "file": "ExternalGeneralization-v1-300.jsonl",
   "rows": 300,
   "families": {
     "squad2_answerable": 50,
@@ -11,5 +10,6 @@
   },
   "source_kind": "deterministic_external_style_stress_suite",
   "important_note": "Use as external-style stress/no-harm evidence. For final high-tier submission, add at least one real external dataset if feasible.",
-  "sha256": "05d5621e72fc3f6e67c635cbc27737ff96bc003f294007f9e7173ec333f6733f"
+  "sha256": "05d5621e72fc3f6e67c635cbc27737ff96bc003f294007f9e7173ec333f6733f",
+  "benchmark_id": "external_style_stress_v1_300"
 }

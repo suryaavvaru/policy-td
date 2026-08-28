@@ -1,5 +1,4 @@
 {
-  "benchmark_file": "SaliGovBench-GPTJackie-Heldout-v1.0-100.jsonl",
   "rows": 100,
   "per_family": 10,
   "families": {
@@ -13,16 +12,6 @@
     "target_lock": 10,
     "unknownability": 10,
     "unsupported_assumption": 10
-  },
-  "train_seed_dirs": [
-    "saligov_local_jackie_runs/gpt_jackie_big_p10_seed13_20260613_200818",
-    "saligov_local_jackie_runs/gpt_jackie_seeded_p10_seed17_20260613_235350",
-    "saligov_local_jackie_runs/gpt_jackie_seeded_p10_seed23_20260614_000831"
-  ],
-  "train_prompt_rows_by_seed_dir": {
-    "saligov_local_jackie_runs/gpt_jackie_big_p10_seed13_20260613_200818": 100,
-    "saligov_local_jackie_runs/gpt_jackie_seeded_p10_seed17_20260613_235350": 100,
-    "saligov_local_jackie_runs/gpt_jackie_seeded_p10_seed23_20260614_000831": 100
   },
   "unique_train_prompts_excluded": 197,
   "overlap_with_training_prompts": 0,
@@ -40,5 +29,15 @@
     "unknownability": 976,
     "unsupported_assumption": 973
   },
-  "sha256": "5a70b82251b35f88624897d6c8b81043f96affdf548f4a7b88ab97b5eeb0d599"
+  "sha256": "5a70b82251b35f88624897d6c8b81043f96affdf548f4a7b88ab97b5eeb0d599",
+  "benchmark_id": "internal_global_heldout_v1_100",
+  "training_provenance": {
+    "guide_seeds": [
+      "seed13",
+      "seed17",
+      "seed23"
+    ],
+    "unique_train_prompts_excluded": 197,
+    "overlap_with_training_prompts": 0
+  }
 }
